@@ -1,0 +1,9 @@
+footer{
+    background-color:#b81e1e;
+    color: white;
+    height: 40px;
+}
+
+footer p{
+    line-height: 40px
+}

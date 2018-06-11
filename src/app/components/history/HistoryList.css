@@ -1,0 +1,13 @@
+.history{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left:20px
+  
+}
+
+.history h5{
+    margin: 5px 55% 20px 10px;
+}

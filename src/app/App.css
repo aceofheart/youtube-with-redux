@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,body{
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.main{
+  width: 65%;
+  margin-top: 30px;
+  padding: 30px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 992px){
+  .main{
+    padding:5px
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .main {
+    width:100%;
+    padding:5px
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .youtube-list-item-history{
+    width:45%
+  }
+  .history h4{
+    margin-right: 45%
+  }
+}
+
+
+
+

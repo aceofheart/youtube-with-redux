@@ -1,0 +1,49 @@
+.suggested{
+    width: 23%;
+    margin: 14px 0 14px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px
+  }
+
+.suggested h5{
+    padding-left: 20px;
+    margin-bottom: 5px;
+    
+}
+
+@media only screen and (max-width: 992px){
+  .suggested{
+    margin-left: 20px;
+    width: 30%
+  }
+}  
+  
+@media only screen and (max-width: 768px){
+    .suggested{
+      width:100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0;
+      padding-left:20px
+    }
+    .suggested h5{
+      margin-right: 55%
+    }
+    .suggested-list-item{
+      width:32%
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .suggested{
+      width:100%
+    }
+    .suggested h5{
+      margin-right: 45%
+    }
+    .suggested-list-item{
+      width:49%
+    }
+}

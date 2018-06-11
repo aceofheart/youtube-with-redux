@@ -1,0 +1,31 @@
+.searchBar{
+    margin: 30px 20px 30px 0px;
+}
+
+.form-inline .form-control{
+  width:57%
+}
+  
+button{
+    background-color: #b81e1e;
+    color: white
+}
+
+button:hover{
+    background-color: #7c7c7c
+}
+
+@media only screen and (max-width: 768px){
+  .searchBar{
+    margin-bottom: 0
+  }
+  .form-inline .form-control{
+    width:77%;
+  }
+}
+
+@media only screen and (max-width: 398px){
+  .form-inline .form-control{
+    width:65%;
+  }
+}

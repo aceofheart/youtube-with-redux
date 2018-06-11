@@ -1,0 +1,47 @@
+.main-box{
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 30px;
+    color: rgb(94, 94, 94);
+    width: 90%
+}
+
+.main-video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+ 
+.main-video iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:768px){
+    .main-box{
+        width:100%;
+        margin-bottom: 20px
+    }
+}
+
+@media only screen and (max-width: 398px){
+    h4{
+      font-size: 0.9em;
+      margin-top:10px
+    }
+    .main-box > p{
+      font-size: 0.8em;
+      padding:0
+    }
+}

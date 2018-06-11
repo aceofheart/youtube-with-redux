@@ -1,0 +1,30 @@
+.history-list-item{
+    width:32%;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 12px;
+    text-decoration: none;
+    color: grey
+}
+ 
+  
+.history-list-item > img{
+    width:100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-bottom: 4px solid rgb(94, 11, 11)
+}
+
+a{
+    text-decoration: none;
+    color: grey
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px){
+    .history-list-item{
+        width:49%
+    }
+}
